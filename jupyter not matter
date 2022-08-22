@@ -1,0 +1,11 @@
+def Gg():
+    print("anas")
+print("helloword")
+Gg()
+
+
+import pandas as pd
+df = pd.read_csv('vgsales.csv')
+df.shape
+
+
