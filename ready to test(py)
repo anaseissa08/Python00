@@ -1,0 +1,56 @@
+def square(number):
+    return number*number
+
+result = square(3)
+print(result)
+
+try :
+
+try:
+    age = int(input("age : "))
+    print(age)
+except ValueError:
+    print("Erorr")
+    
+    #anas eissa
+print("skt is blue")
+
+class Point:
+    def move(self):
+        print("move")
+
+    def draw(self):
+        print("draw")
+
+point1 = Point()
+point1.x = 10
+print(point1.x)
+
+
+class Person:
+    def talk(self):
+        print("talk")
+
+john = Person()
+john.talk()
+
+
+class Person:
+    def talk(self):
+        print("talk")
+
+john = Person()
+john.talk()
+
+class Dog(Person):
+    pass
+
+class Cat(Person):
+    pass
+
+dog1 =  Dog()
+
+import random
+
+for i in range(3):
+    print(random.random())
